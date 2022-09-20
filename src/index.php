@@ -32,11 +32,11 @@ function test_input($data) {
 
 <h2>PHP Form Validation Example</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Name:    <input type="text" name="name">
+ Name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" name="name">
   <br><br>
-  E-mail:  <input type="text" name="email">
+  E-mail: &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="email">
   <br><br>
-  Website: <input type="text" name="website">
+  Website: &nbsp;&nbsp;&nbsp;<input type="text" name="website">
   <br><br>
   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
   <br><br>
